@@ -74,3 +74,15 @@ h2{
 .d3{
     padding-left: 50px; 
 }
+.mi li{
+    display: inline-block;
+    background-color:#383377; 
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.mi{
+    list-style: none;
+    text-align: center;
+}
