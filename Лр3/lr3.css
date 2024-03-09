@@ -94,6 +94,7 @@ button[type="submit"], .twitter-button, .facebook-button, .instagram-button{
     flex-direction: column;
     max-width: 400px;
     width: 400px;
+    color: #4f626b;
 
 
     font-family: "Exo 2", sans-serif;
