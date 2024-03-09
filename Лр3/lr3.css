@@ -7,7 +7,7 @@ body {
 
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
   
@@ -23,6 +23,12 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.t2{
+    font-weight: 400;
+}
+.s1{
+    background-color: #03A9F4;
 }
   
 .left img {
@@ -73,4 +79,30 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+button[type="submit"], .twitter-button, .facebook-button, .instagram-button{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:#03A9F4;
+}
+.social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 400px;
+
+
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+.social button {
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
   
