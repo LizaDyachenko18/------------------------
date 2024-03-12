@@ -2,16 +2,26 @@
   padding: 0%;
   margin: 0%;
 }
+
 .info{
   display: flex;
-  position: relative;
+  position: absolute;
   text-align: center;
   justify-content: center;
   width: 50%;
   z-index: 2;
+  top: 9%;
+  transform: translateY(-50%);
+  color: #ffff;
+}
+.info h2{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 70px;
 }
 .info img{
-  position: relative;
+  position: absolute;
   top: 0%;
   z-index: 2;
+  margin-bottom: 10px;
 }
