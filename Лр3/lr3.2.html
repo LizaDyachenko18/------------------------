@@ -10,8 +10,9 @@
   
 <div class="container">
 
+
   <div class="left">
-    <img src="side_background2.svg" alt="side_background2.svg">
+    <img class="m1" src="side_background2.svg" alt="side_background2.svg">
     <div class="info">
       <img src="logo.svg" alt="logo.svg">
       <h2>Complete your purchase</h2>
@@ -19,9 +20,34 @@
   </div>
 
 
-  <div class="right">
 
+  <div class="right">
+    <form class="form1">
+      <button class="s1"  type="submit">Pay with PayPal</button>
+      <p>Or pay with card</p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="Email" required>
+
+      <div class="card">
+        <label for="card">Country or region:</label>
+        <input type="text" id="card" name="cardr" placeholder="1234 1234 1234 1234" maxlength="19">
+      </div>
+
+      <div class="mmyy">
+        <input type="text" id="expiry" name="expiry" placeholder="MM/YY" maxlength="5">
+      </div>
+
+      <div class="cvc">
+        <input type="number" id="cvc" name="cvc" placeholder="CVC" min="0" max="999" maxlength="3">
+      </div>
+
+      <div class="name">
+        <label for="name">Name on card</label>
+        <input type="name" id="name" name="name" required>
+      </div>
+    </form>
   </div>
+
 
 </div>
 

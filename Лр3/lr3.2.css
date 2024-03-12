@@ -10,6 +10,10 @@ body{
   margin: 0%;
 }
 
+.m1 {
+  width: 50%;
+  display: block;
+}
 .info{
   display: flex;
   position: absolute;
@@ -18,6 +22,7 @@ body{
   width: 50%;
   z-index: 2;
   top: 9%;
+  left: 0;
   color: #ffff;
 }
 .info h2{
@@ -31,3 +36,99 @@ body{
   z-index: 2;
   margin-bottom: 10px;
 }
+
+
+.right{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  z-index: 2;
+  right: 0;
+  top: 9%;
+}
+
+.right form {
+  margin-top: 70px;
+}
+.s1{
+  background-color: #03A9F4;
+}
+.form1 {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+ 
+  color: #4f626b;
+}
+.form1 input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color:  #03A9F4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form1 p{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/*
+.mmyy input{
+  position: absolute;
+  display: flex;
+  width: 25%;
+  justify-content: left;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.cvc input{
+  position: absolute;
+  display: flex;
+  width: 25%;
+  justify-content: right;
+  justify-content: right;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.name{
+  margin-top: 40px;
+}
+*/
