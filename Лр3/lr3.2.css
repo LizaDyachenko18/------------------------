@@ -89,6 +89,36 @@ button[type="submit"] {
   margin-top: 30px;
 }
 
+
+
+.card {
+  position: relative;
+}
+
+.card img {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 30px;
+}
+.jcb{
+  left: 95%;
+}
+.amex{
+  left: 85%;
+}
+.master{
+  left: 75%;
+}
+.visa{
+  left: 65%;
+}
+
+
+
+
+
+
 .mmyy{
   display: flex;
 }
