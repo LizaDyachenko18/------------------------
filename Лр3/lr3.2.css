@@ -47,6 +47,7 @@ body{
   z-index: 2;
   right: 0;
   top: 9%;
+  font-weight: 600;
 }
 
 .right form {
@@ -65,7 +66,6 @@ body{
 .form1 input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 30px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
@@ -83,11 +83,36 @@ button[type="submit"] {
   margin-top: 30px;
   margin-bottom: 35px;
   font-weight: 400;
+  margin-bottom: 30px;
+}
+.card{
+  margin-top: 30px;
 }
 
-input[type="text"],
-input[type="number"],
-select {
+.mmyy{
+  display: flex;
+}
+.c1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.mmyy,
+.cvc {
+  width: 200px;
+  margin-top: -5px;
+}
+.cvc img{
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translateY(-50%);
+}
+
+
+
+input[type="text"]{
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -110,25 +135,7 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-/*
-.mmyy input{
-  position: absolute;
-  display: flex;
-  width: 25%;
-  justify-content: left;
-  font-weight: 200;
-  margin-bottom: 30px;
-}
-.cvc input{
-  position: absolute;
-  display: flex;
-  width: 25%;
-  justify-content: right;
-  justify-content: right;
-  font-weight: 200;
-  margin-bottom: 30px;
-}
 .name{
-  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-*/
