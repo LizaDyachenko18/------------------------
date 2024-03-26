@@ -36,6 +36,9 @@ body{
   top: 200px;
   opacity: 0.3;
 }
+.blur img{
+  height: 700px;
+}
 
 .info h2{
   font-size: 30px;
