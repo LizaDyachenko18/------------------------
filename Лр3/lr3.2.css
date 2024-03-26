@@ -100,10 +100,15 @@ button[type="submit"] {
   font-weight: 400;
   margin-bottom: 30px;
 }
-
+.email input {
+  margin-top: 10px;
+}
 .card {
   margin-top: 30px;
   position: relative;
+}
+.card input{
+  margin-top: 10px;
 }
 .card img {
   position: absolute;
@@ -168,4 +173,30 @@ button:hover {
 .name{
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.name input{
+  margin-top: 10px;
+
+}
+
+.region{
+  display: block;
+  transform: translateY(-50%);
+  color: #4f626b;
+  margin-top: 20%;
+  justify-content: space-between;
+  position: relative;
+}
+.region select {
+  margin-top: 10px;
+  width: 420px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.region input{
+  margin-bottom: 5px;
+}
+.region input{
+  margin-top: -0.5px;
 }
