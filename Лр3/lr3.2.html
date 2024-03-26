@@ -71,9 +71,12 @@
     <form class="form1">
       <button class="s1"  type="submit">Pay with PayPal</button>
       <p>Or pay with card</p>
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
 
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      
       <div class="card">
         <label for="card">Country or region:</label>
         <input type="text" id="card" placeholder="1234 1234 1234 1234" maxlength="19">
@@ -98,6 +101,16 @@
         <label for="name">Name on card</label>
         <input type="name" id="name" required>
       </div>
+
+      <div class="region">
+        <label for="region">Country on region</label>
+        <select id="Country on region" name="Country on region" >
+          <option value="region1">United States</option>
+          <option value="region2">Ukraine</option>
+        </select>
+        <input type="text" id="ZIP" placeholder="ZIP">
+      </div>
+      <button class="s1"  type="submit">Pay $42.00</button>
     </form>
   </div>
 
