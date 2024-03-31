@@ -52,6 +52,100 @@ body{
   margin-bottom: 10px;
 }
 
+.golden{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 250px;
+  z-index: 2;
+}
+.p1{
+  padding-right: 40%;
+}
+.p2{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p3{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p4{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p5{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+.orange{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 350px;
+  z-index: 2;
+}
+.p11{
+  padding-right: 38%;
+}
+.p21{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p31{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p41{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p51{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+.cocopops{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 450px;
+  z-index: 2;
+}
+.p12{
+  padding-right: 44%;
+}
+.p22{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p32{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p42{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p52{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+
 
 .right{
   display: flex;
