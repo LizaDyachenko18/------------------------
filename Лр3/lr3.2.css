@@ -252,6 +252,24 @@ body{
   width: 500px;
   height: 240px;
 }
+.strelka{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 820px;
+  z-index: 2;
+}
+.strelka img{
+  width: 35px;
+  height: 35px;
+  padding-right: 58%;
+}
+.strelka p{
+  position: absolute;
+  top: -1px;
+  padding-left: 180px;
+  padding-top: 10px;
+}
 
 
 .right{
