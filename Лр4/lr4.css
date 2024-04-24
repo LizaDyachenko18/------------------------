@@ -48,7 +48,7 @@
   display: flex;
   position: absolute;
   margin-top: 195px;
-  margin-right: 20%;
+  margin-right: 230px;
   letter-spacing: 5px;
 
   font-family: "Barlow Condensed", sans-serif;
@@ -83,23 +83,52 @@
 .proj{
   display: flex;
   position: absolute;
-  margin-top: 200px;
-  margin-right: 70%;
+  margin-top: 400px;
+  margin-right: 335px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.for{
+  display: flex;
+  position: absolute;
+  margin-top: 420px;
+  margin-right: 470px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.left button{
+  outline: none;
+  border: none;
 }
 .bat{
   display: flex;
   position: absolute;
-  margin-top: 250px;
-  margin-right: 70%;
+  margin-top: 500px;
+  margin-right: 425px;
   color: #ffffff;
   background-color: #FF5C5C;
   border-radius: 10px;
+  padding: 15px;
+  letter-spacing: 2px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .to{
   display: flex;
   position: absolute;
-  margin-top: 250px;
-  margin-right: 65%;
+  margin-top: 515px;
+  margin-left: 200px;
+  letter-spacing: 5px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 
